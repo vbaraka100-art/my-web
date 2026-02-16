@@ -1,0 +1,40 @@
+.icon {
+  position: relative;
+  display: inline-block;
+}
+
+.icon img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 4px 7px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+.responsive {
+    width: 100%;       /* fills container width */
+    max-width: 500px;  /* prevents image from getting too big */
+    height: auto;      /* keeps aspect ratio */
+}
+.circle-img {
+    float: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;        /* makes image circular */
+    shape-outside: circle();   /* makes text wrap in circle shape */
+    clip-path: circle();       /* clips the image itself into circle */
+    margin: 20px;
+}
+.video {
+    width: 100%;      /* fills screen width */
+    height: auto;     /* keeps correct ratio */
+    display: block;
+}
